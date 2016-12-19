@@ -4,3 +4,4 @@ mymap = [0 0 0
     0 0 1];                              
 pixel_labels = reshape(cluster_idx,nrows,ncols);
 imshow(pixel_labels,mymap), title('image labeled by cluster index');
+#https://www.mathworks.com/help/matlab/ref/colormap.html
